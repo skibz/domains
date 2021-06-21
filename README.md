@@ -17,6 +17,8 @@ or
 
 ## note
 
+this whole thing is hella messy for obvious reasons... i wrote this years ago and didn't really have ergonomics or ease of use in mind at the time, nor did i spend any time ensuring that it works on platforms other than macos. i just wanted to find some l33t domainz. you might have some trouble using this tool if you aren't comfortable tinkering with a makefile or javascript source.
+
 there are `sleep`s in the loops to limit the rate at which wordlists are generated and whois calls are performed. you may wish to adjust, or remove, them. (see the `Makefile`)
 
 there are about two-hundred and fifty cctlds, so it'll take at least four to five minutes to generate all of the wordlists. this step only has to be performed once, though. some of the wordlists will be empty because there aren't any known english words with that specific suffix.
