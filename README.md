@@ -4,7 +4,7 @@
 ## usage
 
 * start by installing dependencies with `npm install` (it's small, i promise)
-* then run `make whois` and it'll download lists of potential domains to one file per cctld and store it in the `wordlists` directory. after this, each a whois check will be run against every domain listed for every file. the script will output whether the domain is available for registration. eg:
+* then run `make whois` and it'll download lists of potential domains to one file per cctld and store it in the `wordlists` directory. after this, a whois check will be run against every domain listed for every file. the script will output whether the domain is available for registration. eg:
 
 > bricabr.ac is unavailable
 
